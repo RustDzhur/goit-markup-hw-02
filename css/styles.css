@@ -49,11 +49,11 @@ ul {
 .tel-nav:focus {
     color: #2196F3;
 }
-.email-footer,
+/*.email-footer,-----раскоментировать, после установки background-color
 .tel-footer {
     font-weight: 400;
     font-size: 14px;
-    color: #050505;
+    color: #ffffff;
     line-height: 1.7;
     letter-spacing: 0.03em;
-}
+}*/
