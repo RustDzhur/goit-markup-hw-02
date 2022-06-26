@@ -1,6 +1,59 @@
+/*----------Переменные для сайта----------*/
 :root {
 
 }
+/*----------Стандартные свойства для сайта----------*/
 body {
     font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+ul {
+    list-style: none;
+}
+/*----------Стили для логотипа. Шапка/Подвал сайта----------*/
+.header-logo,
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.header-logo-decor,
+.footer-logo-decor {
+    color: #2196F3;
+}
+/*----------Оформление ссылок. Шапка/Подвал сайта----------*/
+.menu-item:hover,
+.menu-item:focus {
+    color: #2196F3;
+}
+.email-nav,
+.tel-nav {
+    color: #757575;
+}
+.email-nav:hover,
+.email-nav:focus,
+.tel-nav:hover,
+.tel-nav:focus {
+    color: #2196F3;
+}
+.email-footer,
+.tel-footer {
+    font-weight: 400;
+    font-size: 14px;
+    color: #050505;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
