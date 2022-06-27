@@ -1,6 +1,34 @@
 /*----------Переменные для сайта----------*/
 :root {
-
+    /*-----Цвета для логотипа-----*/
+    --logo-color: #000000;
+    --logo-decor-color: #2196F3;
+    /*-----Цвета для ссылок-----*/
+    --menu-item-hover-focus-color: #2196F3;
+    --email-tel-nav-color: #757575;
+    --email-tel-nav-hover-focus-color: #2196F3;
+    --email-tel-footer-color: #ffffff;
+    /*-----index.html. Section Hero-----*/
+    --hero-title-color: #ffffff;
+    --hero-button-bg-color: #2196F3;
+    --hero-button-text-color: #FFFFFF;
+    /*-----index.html. Section Advantages-----*/
+    --title-advantages-color: #212121;
+    --content-advantages-color: #757575;
+    /*-----index.html. Section Services-----*/
+    --title-services-color: #212121;
+    /*-----index.html. Section Team-----*/
+    --team-title-color: #212121;
+    --team-name-color: #212121;
+    --team-position-color: #757575;
+    /*-----portfolio.html. Section Filter-----*/
+    --filter-btn-color: #212121;
+    --filter-btn-bg-color: #F5F4FA;
+    --filter-btn-bg-hover-focus-color: #2196F3;
+    --filter-btn-text-chover-focus-color: #FFFFFF;
+    /*-----portfolio.html. Section Cards-----*/
+    --cards-item-title-color: #212121;
+    --cards-item-type-color: #757575;
 }
 /*----------Стандартные свойства для сайта----------*/
 body {
@@ -33,31 +61,31 @@ ul {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: var(--footer-logo-color);
 }
 .header-logo-decor,
 .footer-logo-decor {
-    color: #2196F3;
+    color: var(--logo-decor-color);
 }
 /*----------Оформление ссылок. Шапка/Подвал сайта----------*/
 .menu-item:hover,
 .menu-item:focus {
-    color: #2196F3;
+    color: var(--menu-item-hover-focus-color);
 }
 .email-nav,
 .tel-nav {
-    color: #757575;
+    color: var(--email-tel-nav-color);
 }
 .email-nav:hover,
 .email-nav:focus,
 .tel-nav:hover,
 .tel-nav:focus {
-    color: #2196F3;
+    color: var(--email-tel-nav-hover-focus-color);
 }
 .email-footer,
 .tel-footer {
     font-weight: 400;
-    /*color: #ffffff; после установки background-color*/
+    /*color: var(--email-tel-footer-color); после установки background-color*/
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
@@ -69,7 +97,7 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /*color: #FFFFFF; после установки background-color*/
+    /*color: var(--hero-title-color); после установки background-color*/
 }
 .hero-button {
     font-weight: 700;
@@ -81,8 +109,8 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     padding: 10px 32px;
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--hero-button-bg-color);
+    color: var(--hero-button-text-color);
     border: none;
 }
 .hero-button:focus {
@@ -93,12 +121,12 @@ ul {
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    color: var(--title-advantages-color);
 }
 .content-advantages {
     line-height: 1.7;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--content-advantages-color);
 }
 /*----------Страница index.html. Main. Section "services"----------*/
 .title-services {
@@ -107,7 +135,7 @@ ul {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-services-color);
 }
 /*----------Страница index.html. Main. Section "team"----------*/
 .team-title {
@@ -116,7 +144,7 @@ ul {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--team-title-color);
 }
 .team-item {
     text-align: center;
@@ -126,12 +154,46 @@ ul {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--team-name-color);
 }
-.team-post {
+.team-position {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--team-position-color);
+}
+/*----------Страница portfolio.html. Main. filter----------*/
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--filter-btn-color);
+    border: none;
+    background-color: var(--filter-btn-bg-color);
+    padding: 6px 22px;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--filter-btn-bg-hover-focus-color);
+    color: var(--filter-btn-text-chover-focus-color);
+}
+/*----------Страница portfolio.html. Main. cards----------*/
+.cards-item {
+    text-align: center;
+}
+.cards-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--cards-item-title-color);
+}
+.cards-item-type {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--cards-item-type-color);
 }
