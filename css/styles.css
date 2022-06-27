@@ -6,6 +6,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
 }
 a {
     text-decoration: none;
@@ -52,7 +57,81 @@ ul {
 .email-footer,
 .tel-footer {
     font-weight: 400;
-    /*color: #ffffff; ---раскомментировать, после установки background-color*/
+    /*color: #ffffff; после установки background-color*/
     line-height: 1.7;
     letter-spacing: 0.03em;
+}
+/*----------Страница index.html. Main. Section "HERO"----------*/
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /*color: #FFFFFF; после установки background-color*/
+}
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: none;
+}
+.hero-button:focus {
+
+}
+/*----------Страница index.html. Main. Section "advantages"----------*/
+.title-advantages {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.content-advantages {
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*----------Страница index.html. Main. Section "services"----------*/
+.title-services {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+/*----------Страница index.html. Main. Section "team"----------*/
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-item {
+    text-align: center;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-post {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
