@@ -36,25 +36,20 @@
 /*----------Стандартные свойства для сайта----------*/
 body {
     font-family: 'Roboto', sans-serif;
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.14;
+    list-style: none;
+    line-height: 1.71;
     color: var(--body-color);
 }
-a {
+.link {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.71;
     letter-spacing: 0.02em;
     color: var(--a-color);
 }
-ul {
+.lists {
     list-style: none;
 }
 /*----------Стили для логотипа. Шапка/Подвал сайта----------*/
@@ -72,6 +67,9 @@ ul {
     color: var(--logo-decor-color);
 }
 /*----------Оформление ссылок. Шапка/Подвал сайта----------*/
+.menu-item {
+    font-weight: 500;
+}
 .menu-item:hover,
 .menu-item:focus {
     color: var(--menu-item-hover-focus-color);
@@ -79,6 +77,7 @@ ul {
 .email-nav,
 .tel-nav {
     color: var(--email-tel-nav-color);
+    font-weight: 500;
 }
 .email-nav:hover,
 .email-nav:focus,
@@ -86,11 +85,11 @@ ul {
 .tel-nav:focus {
     color: var(--email-tel-nav-hover-focus-color);
 }
+.address,
 .email-footer,
 .tel-footer {
-    font-weight: 400;
-    /*color: var(--email-tel-footer-color); после установки background-color*/
-    line-height: 1.7;
+    color: var(--email-tel-footer-color);
+    background-color: #2F303A;
     letter-spacing: 0.03em;
 }
 /*----------Страница index.html. Main. Section "HERO"----------*/
@@ -101,7 +100,8 @@ ul {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /*color: var(--hero-title-color); после установки background-color*/
+    color: var(--hero-title-color);
+    background-color: #2F303A;
 }
 .hero-button {
     font-weight: 700;
@@ -115,18 +115,16 @@ ul {
     border: none;
     cursor: pointer;
 }
-.hero-button:focus {
-
-}
 /*----------Страница index.html. Main. Section "advantages"----------*/
 .title-advantages {
+    font-size: 14px;
     font-weight: 700;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-advantages-color);
 }
 .content-advantages {
-    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--content-advantages-color);
 }
@@ -148,26 +146,20 @@ ul {
     letter-spacing: 0.03em;
     color: var(--team-title-color);
 }
-.team-item {
-    
-}
-.team-name {
+.team-item .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--team-name-color);
 }
-.team-position {
+.team-item .team-position {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--team-position-color);
 }
 /*----------Страница portfolio.html. Main. filter----------*/
-.main-title {
-    
-}
 .filter-btn {
     font-weight: 500;
     font-size: 16px;
@@ -186,9 +178,6 @@ ul {
     color: var(--filter-btn-text-chover-focus-color);
 }
 /*----------Страница portfolio.html. Main. cards----------*/
-.cards-item {
-    
-}
 .cards-item-title {
     font-weight: 700;
     font-size: 18px;
