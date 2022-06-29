@@ -107,9 +107,6 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     padding: 10px 32px;
@@ -152,7 +149,7 @@ ul {
     color: var(--team-title-color);
 }
 .team-item {
-    text-align: center;
+    
 }
 .team-name {
     font-weight: 500;
@@ -164,13 +161,12 @@ ul {
 .team-position {
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
     color: var(--team-position-color);
 }
 /*----------Страница portfolio.html. Main. filter----------*/
 .main-title {
-    display: none;
+    
 }
 .filter-btn {
     font-weight: 500;
@@ -191,7 +187,7 @@ ul {
 }
 /*----------Страница portfolio.html. Main. cards----------*/
 .cards-item {
-    text-align: center;
+    
 }
 .cards-item-title {
     font-weight: 700;
