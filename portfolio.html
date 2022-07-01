@@ -11,14 +11,17 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!--Шапка сайта. Навигация-->
-    <header class="navigation">
+
+
+    <header class="navigation container">
         <nav class="navigation">
-            <a class="header-logo link" href="./index.html"><span class="header-logo-decor">Web</span>studio</a>
+            <a class="header-logo link" href="./index.html"><span class="header-logo-decor">Web</span>Studio</a>
             <ul class="menu-list lists">
                 <li><a class="menu-item link" href="./index.html">Студия</a></li>
                 <li><a class="menu-item link" href="./portfolio.html">Портфолио</a></li>
@@ -30,9 +33,12 @@
             <li><a class="tel-nav link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
+
+
     <!--Главный раздел сайта MAIN-->
-    <section>
-        <main class="main">
+
+    <main class="main">
+        <section>
             <h1 class="main-title">Портфолио</h1>
             <ul class="filter lists">
                 <li class="filter-item"><button class="filter-btn" type="button">Все</button>
@@ -42,34 +48,34 @@
                 <li class="filter-item"><button class="filter-btn" type="button">Маркетинг</button>
             </ul>
             <ul class="cards lists">
-                <li class="cards-item"><a  href="" class="card-link link">
+                <li class="cards-item"><a href="" class="card-link link">
                         <img src="./images/port1.jpg" alt="ноутбук с изображением команды" class="cards-foto"
                             width="370">
                         <h2 class="cards-item-title">Технокряк</h2>
                         <p class="cards-item-type">Веб-сайт</p>
                     </a></li>
-                <li class="cards-item"><a  href="" class="card-link link">
+                <li class="cards-item"><a href="" class="card-link link">
                         <img src="./images/port2.jpg" alt="два спортсмена играют в баскетбол" class="cards-foto"
                             width="370">
                         <h2 class="cards-item-title">Постер New Orlean vs Golden Star</h2>
                         <p class="cards-item-type">Дизайн</p>
                     </a></li>
-                <li class="cards-item"><a  href="" class="card-link link">
+                <li class="cards-item"><a href="" class="card-link link">
                         <img src="./images/port3.jpg" alt="логотип ресторана Seafood" class="cards-foto" width="370">
                         <h2 class="cards-item-title">Ресторан Seafood</h2>
                         <p class="cards-item-type">Приложение</p>
                     </a></li>
-                <li class="cards-item"><a  href="" class="card-link link">
+                <li class="cards-item"><a href="" class="card-link link">
                         <img src="./images/port4.jpg" alt="наушники" class="cards-foto" width="370">
                         <h2 class="cards-item-title">Проект Prime</h2>
                         <p class="cards-item-type">Маркетинг</p>
                     </a></li>
-                <li class="cards-item"><a  href="" class="card-link link">
+                <li class="cards-item"><a href="" class="card-link link">
                         <img src="./images/port5.jpg" alt="две коробки" class="cards-foto" width="370">
                         <h2 class="cards-item-title">Проект Boxes</h2>
                         <p class="cards-item-type">Приложение</p>
                     </a></li>
-                <li class="cards-item"><a  href="" class="card-link link">
+                <li class="cards-item"><a href="" class="card-link link">
                         <img src="./images/port6.jpg" alt="монитор с изображением сайта" class="cards-foto" width="370">
                         <h2 class="cards-item-title">Inspiration has no Borders</h2>
                         <p class="cards-item-type">Веб-сайт</p>
@@ -91,11 +97,12 @@
                         <p class="cards-item-type">Приложение</p>
                     </a></li>
             </ul>
-        </main>
-    </section>
+        </section>
+    </main>
     <!--Подвал сайта-->
     <footer class="footer">
-        <a class="footer-logo link" href="./index.html"><span class="footer-logo-decor">Web</span>studio</a>
+        <a class="footer-logo link" href="./index.html"><span class="footer-logo-decor">Web</span><span
+                class="footer-logo-decor-studio">Studio</span></a>
         <address>
             <ul lists>
                 <li><a class="address link"
@@ -105,7 +112,6 @@
                 <li><a class="email-footer link" href="mailto:info@example.com">info@example.com</a></li>
                 <li><a class="tel-footer link" href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
-
         </address>
     </footer>
 </body>
