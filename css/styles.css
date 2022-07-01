@@ -82,13 +82,22 @@ body {
 .tel-nav:focus {
     color: var(--email-tel-nav-hover-focus-color);
 }
-.address,
+.address {
+    color: var(--email-tel-footer-color);
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
 .email-footer,
 .tel-footer {
-    color: var(--email-tel-footer-color);
-    background-color: #2F303A;
+    color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
 }
+
+.footer {
+    background-color: #2F303A;
+
+}
+
 /*----------Страница index.html. Main. Section "HERO"----------*/
 .hero-title {
     font-weight: 900;
@@ -184,7 +193,6 @@ body {
 }
 .cards-item-type {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--cards-item-type-color);
